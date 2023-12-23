@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, serif;
+    background-color: paleturquoise;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.converter {
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
